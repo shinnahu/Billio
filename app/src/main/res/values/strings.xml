@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Billio</string>
+    <!-- Which language this file is in; the app reads it to know what is on screen. -->
+    <string name="language_code">en</string>
+    <!-- Each language is named in itself, so it can be found whatever language the app is in. -->
+    <string name="language_en" translatable="false">English</string>
+    <string name="language_es" translatable="false">Español</string>
+
+    <!-- small words -->
+    <string name="back">Back</string>
+    <string name="close">Close</string>
+    <string name="clear">Clear</string>
+    <string name="reload">Reload</string>
+    <string name="copy">Copy</string>
+    <string name="copied">Copied</string>
+    <string name="optional">Optional</string>
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="previous_month">Previous month</string>
+    <string name="next_month">Next month</string>
+    <string name="earlier">Earlier</string>
+    <string name="later">Later</string>
+
+    <!-- home -->
+    <string name="hello">Hello</string>
+    <string name="hello_name">Hello, %1$s</string>
+    <string name="to_pay_month">To pay this month</string>
+    <string name="paid_this_month">%1$s paid this month</string>
+    <string name="estimates_note">Counted at the usual amount: %1$d</string>
+    <string name="other_currency_line">plus %1$s</string>
+    <string name="all_bills">All bills</string>
+    <string name="needs_action">Needs action</string>
+    <string name="nothing_needs_action">Nothing needs action right now.</string>
+    <string name="add_new_bill">Add a new bill</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_bills">Your bills</string>
+    <string name="nav_stats">Statistics</string>
+    <string name="nav_history">History</string>
+
+    <string name="focus_empty_title">Connect your first provider</string>
+    <string name="focus_empty_body">Pick your internet, electricity or gas company. You get a reminder every month and a place to note what you paid.</string>
+    <string name="focus_empty_action">Connect a provider</string>
+    <string name="focus_ok_title">You are up to date</string>
+    <string name="focus_ok_body">Nothing to pay right now.</string>
+    <string name="focus_ok_body_next">Nothing to pay right now. Next reminder: %1$s, %2$s.</string>
+    <string name="focus_ok_action">See what is coming</string>
+    <string name="focus_due_body">This month\'s bill is %1$s.</string>
+    <string name="focus_due_body_date">This month\'s bill is %1$s. It is due on %2$s.</string>
+    <string name="focus_overdue_body">%1$s was due on %2$s.</string>
+    <string name="focus_pending_body">Time to pay. Check this month\'s amount on the company\'s site, or type it in.</string>
+    <string name="focus_pending_body_nourl">Time to pay. Enter this month\'s amount when you have the bill.</string>
+
+    <string name="action_log_payment">Log payment</string>
+    <string name="action_check_amount">Check amount</string>
+    <string name="action_enter_amount">Enter amount</string>
+    <string name="action_change_amount">Change amount</string>
+
+    <string name="tag_overdue">Overdue</string>
+    <string name="tag_to_pay">To pay</string>
+    <string name="tag_check">Pending</string>
+    <string name="tag_paid">Paid</string>
+    <string name="tag_done">Finished</string>
+    <string name="sub_due">Due %1$s</string>
+    <string name="sub_was_due">Was due %1$s</string>
+    <string name="sub_reminder">Reminder %1$s</string>
+
+    <!-- categories -->
+    <string name="cat_internet">Internet &amp; TV</string>
+    <string name="cat_mobile">Mobile plan</string>
+    <string name="cat_electricity">Electricity</string>
+    <string name="cat_gas">Gas</string>
+    <string name="cat_water">Water</string>
+    <string name="cat_taxes">Taxes</string>
+    <string name="cat_insurance">Insurance</string>
+    <string name="cat_health">Health plan</string>
+    <string name="cat_subscription">Subscriptions</string>
+    <string name="cat_card">Cards and credit</string>
+    <string name="cat_security">Home security</string>
+    <string name="cat_education">Education</string>
+    <string name="cat_housing">Rent and building fees</string>
+    <string name="cat_other">Other</string>
+
+    <!-- connect a provider -->
+    <string name="add_title">Connect a Provider</string>
+    <string name="add_body">Pick a category and then your company. You get a monthly reminder and can check the amount on the company\'s own site.</string>
+    <string name="country_ar">Argentina</string>
+    <string name="country_us">United States</string>
+    <string name="search_provider">Search company</string>
+    <string name="other_provider">Another company</string>
+    <string name="other_provider_sub">Type its name yourself</string>
+    <string name="no_results">No company found with that name. You can add it below.</string>
+    <string name="login_note_public">Its site lets you pay without registering: it asks for this number.</string>
+    <string name="login_note_login">Its site asks you to sign in to see your bills.</string>
+    <string name="field_name">Name</string>
+    <string name="name_placeholder">Company or service</string>
+    <string name="field_category">Category</string>
+    <string name="field_account">Account or customer number</string>
+    <string name="account_hint">Optional. The app can paste it for you on the company\'s site.</string>
+    <string name="field_reminder_day">Reminder day</string>
+    <string name="reminder_day_hint">You get a notification on day %1$d of every month.</string>
+    <string name="field_usual_amount">Usual amount</string>
+    <string name="usual_hint">Optional. Shown until you know this month\'s amount.</string>
+    <string name="more_options">More options</string>
+    <string name="field_cuotas">Number of instalments</string>
+    <string name="cuotas_hint">Optional. For plans that end, like 12 instalments.</string>
+    <string name="field_site">Company page</string>
+    <string name="site_hint">Where the bill can be seen or paid.</string>
+    <string name="field_notes">Notes</string>
+    <string name="action_add_bill">Add bill</string>
+    <string name="action_save">Save</string>
+    <string name="edit_title">Edit bill</string>
+
+    <!-- payments and amounts -->
+    <string name="pay_title">Log a payment</string>
+    <string name="pay_edit_title">Edit payment</string>
+    <string name="field_amount_paid">Amount paid</string>
+    <string name="field_paid_on">Paid on</string>
+    <string name="field_period">Month it belongs to</string>
+    <string name="cuota_toggle">It is an instalment</string>
+    <string name="cuota_toggle_hint">For example, instalment 2 of 6.</string>
+    <string name="field_cuota">Instalment</string>
+    <string name="field_cuota_of">Out of</string>
+    <string name="field_note">Note</string>
+    <string name="action_save_payment">Save payment</string>
+    <string name="action_delete_payment">Delete payment</string>
+    <string name="amount_title">This month\'s bill</string>
+    <string name="field_amount_due">Amount to pay</string>
+    <string name="field_due_date">Due date</string>
+    <string name="action_save_amount">Save amount</string>
+    <string name="action_remove_amount">Remove amount</string>
+    <string name="capture_title">Amounts on this page</string>
+    <string name="capture_body">Pick the one that is your bill.</string>
+    <string name="capture_no_date">No due date</string>
+    <string name="capture_none_title">No amounts on this page</string>
+    <string name="capture_none_body">Open the page that shows your bill and try again, or type the amount yourself.</string>
+    <string name="action_use_amount">Save as amount to pay</string>
+    <string name="delete_title">Delete %1$s?</string>
+    <string name="delete_body">Its payments and amounts are deleted too. This cannot be undone.</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_cancel">Cancel</string>
+
+    <!-- the bell -->
+    <string name="upcoming_title">Coming up</string>
+    <string name="upcoming_body">Reminders and due dates in the next 45 days.</string>
+    <string name="upcoming_empty">Nothing is scheduled. Connect a provider to get monthly reminders.</string>
+    <string name="kind_reminder">Reminder</string>
+    <string name="kind_due">Due date</string>
+
+    <!-- one bill -->
+    <string name="menu_edit">Edit</string>
+    <string name="menu_delete">Delete</string>
+    <string name="amount_to_pay">Amount to pay</string>
+    <string name="paid_label">Paid this month</string>
+    <string name="no_amount_yet">No amount yet</string>
+    <string name="usual_amount_value">Usually about %1$s</string>
+    <string name="due_on">Due on %1$s</string>
+    <string name="was_due_on">Was due on %1$s</string>
+    <string name="next_reminder_on">Next reminder: %1$s</string>
+    <string name="pending_line">Time to check this month\'s amount.</string>
+    <string name="done_line">Every instalment is paid.</string>
+    <string name="cuota_progress">Next: instalment %1$d of %2$d</string>
+    <string name="action_check_site">Check amount on its site</string>
+    <string name="action_open_mp">Open Mercado Pago</string>
+    <string name="reminders_label">Monthly reminder</string>
+    <string name="reminder_line">Day %1$d of every month</string>
+    <string name="reminder_short">reminder on day %1$d</string>
+    <string name="section_payments">Payments</string>
+    <string name="no_payments">No payments logged yet.</string>
+    <string name="paid_on">Paid %1$s</string>
+    <string name="cuota_short">instalment %1$d/%2$d</string>
+    <string name="cuota_short_one">instalment %1$d</string>
+
+    <!-- tabs -->
+    <string name="bills_empty">No bills yet. Connect a provider to start.</string>
+    <string name="stats_empty">Log a payment to see your numbers here.</string>
+    <string name="stats_paid_month">Paid in %1$s</string>
+    <string name="stats_average">Monthly average: %1$s</string>
+    <string name="stats_last_months">Last 6 months</string>
+    <string name="stats_by_category">This month by category</string>
+    <string name="history_empty">Payments you log appear here.</string>
+
+    <!-- the company's site inside the app -->
+    <string name="browser_find">Find amount</string>
+    <string name="browser_paste">Paste number</string>
+    <string name="browser_hint">When your bill is on screen, press Find amount. The app does not store what you type on this site.</string>
+    <string name="browser_tap_field">Tap the box on the page first, then press Paste number. It was also copied.</string>
+    <string name="browser_open_external">Open in browser</string>
+
+    <!-- settings -->
+    <string name="settings_title">Settings</string>
+    <string name="field_your_name">Your name</string>
+    <string name="name_hint">Only used for the greeting.</string>
+    <string name="settings_country">Country</string>
+    <string name="country_hint">Decides which companies are offered and the currency of new bills.</string>
+    <string name="settings_language">App language</string>
+    <string name="settings_reminders">Reminders</string>
+    <string name="settings_reminder_time">Time of day</string>
+    <string name="reminder_time_hint">Android may deliver it a few minutes late.</string>
+    <string name="settings_notifications">Notifications</string>
+    <string name="notif_on">Allowed</string>
+    <string name="notif_off">Blocked. Tap to allow them.</string>
+    <string name="action_test_notification">Send a test reminder</string>
+    <string name="settings_backup">Your data</string>
+    <string name="settings_privacy">Your bills are stored only on this phone, with no account. A backup file lets you move them to another phone.</string>
+    <string name="action_export">Save a backup file</string>
+    <string name="action_import">Restore from a backup file</string>
+    <string name="backup_saved">Backup saved</string>
+    <string name="backup_failed">Could not save the backup</string>
+    <string name="backup_restored">Backup restored</string>
+    <string name="backup_bad">That file is not a Billio backup</string>
+
+    <!-- notifications -->
+    <string name="channel_name">Bill reminders</string>
+    <string name="notif_monthly">Time to pay %1$s</string>
+    <string name="notif_due_tomorrow">%1$s is due tomorrow</string>
+    <string name="notif_due_today">%1$s is due today</string>
+    <string name="notif_overdue">%1$s is overdue</string>
+    <string name="notif_amount">To pay: %1$s</string>
+    <string name="notif_no_amount">Check this month\'s amount and log the payment.</string>
+    <string name="notif_test_title">Reminders are working</string>
+    <string name="notif_test_text">This is how a bill reminder looks.</string>
+</resources>

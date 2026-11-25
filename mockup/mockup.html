@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Billio mockup</title>
+<!--
+  Two phones on a grey canvas, 2000 x 1422. The screens are real renders of the app
+  (home.png and connect.png); only the phone bodies, the status bar and the home bar
+  are drawn here.
+
+  To make billio-mockup.png again:
+    1. gradlew :app:testDebugUnitTest --tests "app.billio.ScreensTest.screensForTheMockup"
+    2. copy app/build/screenshots/mockup-home.png and mockup-connect.png here as home.png and connect.png
+    3. chrome --headless=new --hide-scrollbars --force-device-scale-factor=2 --window-size=2000,1422
+              --screenshot=billio-mockup.png mockup.html   (with full paths)
+-->
+<style>
+  html, body { margin: 0; }
+  body {
+    width: 2000px; height: 1422px; overflow: hidden;
+    background: #ECECEC;
+    display: flex; align-items: center; justify-content: center; gap: 42px;
+    font-family: "Segoe UI", system-ui, sans-serif;
+  }
+
+  /* The body of the phone: a soft white rim around the screen. */
+  .phone {
+    position: relative;
+    padding: 11px;
+    border-radius: 86px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F6F6F7 100%);
+    box-shadow:
+      0 0 0 1px rgba(0, 0, 0, .035),
+      0 0 0 7px rgba(255, 255, 255, .55),
+      0 36px 60px -34px rgba(25, 40, 80, .22);
+  }
+  .screen {
+    position: relative;
+    width: 530px; height: 1138px;
+    border-radius: 75px;
+    overflow: hidden;
+  }
+  .screen img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .screen::after { /* a hairline, so a white screen edge still reads against the rim */
+    content: ""; position: absolute; inset: 0; border-radius: inherit;
+    box-shadow: inset 0 0 0 1px rgba(15, 25, 60, .06);
+    pointer-events: none;
+  }
+
+  /* What the phone itself draws over the app. */
+  .time {
+    position: absolute; left: 0; top: 23px; width: 198px; text-align: center;
+    color: #fff; font-size: 22.5px; font-weight: 600; letter-spacing: .2px; line-height: 32px;
+  }
+  .island {
+    position: absolute; left: 50%; top: 15px; width: 163px; height: 48px; margin-left: -81.5px;
+    border-radius: 24px; background: rgba(255, 255, 255, .34);
+  }
+  .icons {
+    position: absolute; right: 51px; top: 31px; height: 16px;
+    display: flex; align-items: center; gap: 9px;
+  }
+  .icons svg { display: block; }
+  .home-bar {
+    position: absolute; left: 50%; bottom: 13px; width: 183px; height: 6px; margin-left: -91.5px;
+    border-radius: 3px; background: rgba(0, 0, 0, .17);
+  }
+  .dimmed .island { background: rgba(255, 255, 255, .30); }
+  .dimmed .home-bar { background: rgba(0, 0, 0, .36); }
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute">
+  <defs>
+    <g id="signal" fill="#fff">
+      <rect x="0" y="10.2" width="4.6" height="5.8" rx="1.3"/>
+      <rect x="6.8" y="7" width="4.6" height="9" rx="1.3"/>
+      <rect x="13.6" y="3.6" width="4.6" height="12.4" rx="1.3"/>
+      <rect x="20.4" y="0" width="4.6" height="16" rx="1.3"/>
+    </g>
+    <g id="wifi" fill="none" stroke="#fff" stroke-width="2.8">
+      <path d="M1.2 6.06A13.4 13.4 0 0 1 20.8 6.06"/>
+      <path d="M4.64 9.27A8.7 8.7 0 0 1 17.36 9.27"/>
+      <path d="M11 15.4 7.5 12.1a4.8 4.8 0 0 1 7 0z" fill="#fff" stroke="none"/>
+    </g>
+    <g id="battery">
+      <rect x=".7" y=".7" width="29.6" height="14.6" rx="4.7" fill="none" stroke="#fff" stroke-opacity=".45" stroke-width="1.4"/>
+      <rect x="2.9" y="2.9" width="25.2" height="10.2" rx="2.7" fill="#fff"/>
+      <path d="M32.2 5.2v5.6c1.1-.4 1.8-1.5 1.8-2.8s-.7-2.4-1.8-2.8z" fill="#fff" fill-opacity=".5"/>
+    </g>
+  </defs>
+</svg>
+
+<div class="phone">
+  <div class="screen">
+    <img src="home.png" alt="Home: to pay this month, the next bill and the list of bills">
+    <div class="time">9:41</div>
+    <div class="island"></div>
+    <div class="icons">
+      <svg width="25" height="16" viewBox="0 0 25 16"><use href="#signal"/></svg>
+      <svg width="22" height="16" viewBox="0 0 22 16"><use href="#wifi"/></svg>
+      <svg width="34" height="16" viewBox="0 0 34 16"><use href="#battery"/></svg>
+    </div>
+    <div class="home-bar"></div>
+  </div>
+</div>
+
+<div class="phone dimmed">
+  <div class="screen">
+    <img src="connect.png" alt="Connect a Provider: search and the list of categories">
+    <div class="time">9:41</div>
+    <div class="island"></div>
+    <div class="icons">
+      <svg width="25" height="16" viewBox="0 0 25 16"><use href="#signal"/></svg>
+      <svg width="22" height="16" viewBox="0 0 22 16"><use href="#wifi"/></svg>
+      <svg width="34" height="16" viewBox="0 0 34 16"><use href="#battery"/></svg>
+    </div>
+    <div class="home-bar"></div>
+  </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="language_code">es</string>
+
+    <!-- small words -->
+    <string name="back">Volver</string>
+    <string name="close">Cerrar</string>
+    <string name="clear">Borrar</string>
+    <string name="reload">Recargar</string>
+    <string name="copy">Copiar</string>
+    <string name="copied">Copiado</string>
+    <string name="optional">Opcional</string>
+    <string name="today">Hoy</string>
+    <string name="tomorrow">Mañana</string>
+    <string name="previous_month">Mes anterior</string>
+    <string name="next_month">Mes siguiente</string>
+    <string name="earlier">Más temprano</string>
+    <string name="later">Más tarde</string>
+
+    <!-- home -->
+    <string name="hello">Hola</string>
+    <string name="hello_name">Hola, %1$s</string>
+    <string name="to_pay_month">A pagar este mes</string>
+    <string name="paid_this_month">%1$s pagado este mes</string>
+    <string name="estimates_note">Con importe habitual: %1$d</string>
+    <string name="other_currency_line">más %1$s</string>
+    <string name="all_bills">Todos</string>
+    <string name="needs_action">Por pagar</string>
+    <string name="nothing_needs_action">No hay nada para pagar ahora.</string>
+    <string name="add_new_bill">Agregar un servicio</string>
+    <string name="nav_home">Inicio</string>
+    <string name="nav_bills">Servicios</string>
+    <string name="nav_stats">Estadísticas</string>
+    <string name="nav_history">Historial</string>
+
+    <string name="focus_empty_title">Conectá tu primer servicio</string>
+    <string name="focus_empty_body">Elegí tu empresa de internet, luz o gas. Recibís un recordatorio cada mes y tenés dónde anotar lo que pagaste.</string>
+    <string name="focus_empty_action">Conectar un servicio</string>
+    <string name="focus_ok_title">Estás al día</string>
+    <string name="focus_ok_body">No hay nada para pagar ahora.</string>
+    <string name="focus_ok_body_next">No hay nada para pagar ahora. Próximo recordatorio: %1$s, %2$s.</string>
+    <string name="focus_ok_action">Ver lo que viene</string>
+    <string name="focus_due_body">La factura de este mes es de %1$s.</string>
+    <string name="focus_due_body_date">La factura de este mes es de %1$s. Vence el %2$s.</string>
+    <string name="focus_overdue_body">Había que pagar %1$s antes del %2$s.</string>
+    <string name="focus_pending_body">Es momento de pagar. Consultá el importe de este mes en el sitio de la empresa o escribilo vos.</string>
+    <string name="focus_pending_body_nourl">Es momento de pagar. Ingresá el importe de este mes cuando tengas la factura.</string>
+
+    <string name="action_log_payment">Registrar pago</string>
+    <string name="action_check_amount">Consultar importe</string>
+    <string name="action_enter_amount">Ingresar importe</string>
+    <string name="action_change_amount">Cambiar importe</string>
+
+    <string name="tag_overdue">Vencida</string>
+    <string name="tag_to_pay">A pagar</string>
+    <string name="tag_check">Pendiente</string>
+    <string name="tag_paid">Pagada</string>
+    <string name="tag_done">Terminado</string>
+    <string name="sub_due">Vence el %1$s</string>
+    <string name="sub_was_due">Venció el %1$s</string>
+    <string name="sub_reminder">Recordatorio el %1$s</string>
+
+    <!-- categories -->
+    <string name="cat_internet">Internet y TV</string>
+    <string name="cat_mobile">Línea móvil</string>
+    <string name="cat_electricity">Luz</string>
+    <string name="cat_gas">Gas</string>
+    <string name="cat_water">Agua</string>
+    <string name="cat_taxes">Impuestos</string>
+    <string name="cat_insurance">Seguros</string>
+    <string name="cat_health">Salud</string>
+    <string name="cat_subscription">Suscripciones</string>
+    <string name="cat_card">Tarjetas y créditos</string>
+    <string name="cat_security">Seguridad del hogar</string>
+    <string name="cat_education">Educación</string>
+    <string name="cat_housing">Alquiler y expensas</string>
+    <string name="cat_other">Otro</string>
+
+    <!-- connect a provider -->
+    <string name="add_title">Conectar un servicio</string>
+    <string name="add_body">Elegí una categoría y después tu empresa. Recibís un recordatorio mensual y podés consultar el importe en el sitio de la empresa.</string>
+    <string name="country_ar">Argentina</string>
+    <string name="country_us">Estados Unidos</string>
+    <string name="search_provider">Buscar empresa</string>
+    <string name="other_provider">Otra empresa</string>
+    <string name="other_provider_sub">Escribí el nombre vos</string>
+    <string name="no_results">No hay ninguna empresa con ese nombre. Podés agregarla abajo.</string>
+    <string name="login_note_public">Su sitio permite pagar sin registrarte: te pide este número.</string>
+    <string name="login_note_login">Su sitio te pide iniciar sesión para ver tus facturas.</string>
+    <string name="field_name">Nombre</string>
+    <string name="name_placeholder">Empresa o servicio</string>
+    <string name="field_category">Categoría</string>
+    <string name="field_account">Número de cuenta o de cliente</string>
+    <string name="account_hint">Opcional. La app puede pegarlo por vos en el sitio de la empresa.</string>
+    <string name="field_reminder_day">Día del recordatorio</string>
+    <string name="reminder_day_hint">Recibís una notificación el día %1$d de cada mes.</string>
+    <string name="field_usual_amount">Importe habitual</string>
+    <string name="usual_hint">Opcional. Se muestra hasta que sepas el importe de este mes.</string>
+    <string name="more_options">Más opciones</string>
+    <string name="field_cuotas">Cantidad de cuotas</string>
+    <string name="cuotas_hint">Opcional. Para planes que terminan, por ejemplo 12 cuotas.</string>
+    <string name="field_site">Página de la empresa</string>
+    <string name="site_hint">Donde se puede ver o pagar la factura.</string>
+    <string name="field_notes">Notas</string>
+    <string name="action_add_bill">Agregar servicio</string>
+    <string name="action_save">Guardar</string>
+    <string name="edit_title">Editar servicio</string>
+
+    <!-- payments and amounts -->
+    <string name="pay_title">Registrar un pago</string>
+    <string name="pay_edit_title">Editar pago</string>
+    <string name="field_amount_paid">Importe pagado</string>
+    <string name="field_paid_on">Fecha de pago</string>
+    <string name="field_period">Mes al que corresponde</string>
+    <string name="cuota_toggle">Es una cuota</string>
+    <string name="cuota_toggle_hint">Por ejemplo, cuota 2 de 6.</string>
+    <string name="field_cuota">Cuota</string>
+    <string name="field_cuota_of">De</string>
+    <string name="field_note">Nota</string>
+    <string name="action_save_payment">Guardar pago</string>
+    <string name="action_delete_payment">Borrar pago</string>
+    <string name="amount_title">Factura de este mes</string>
+    <string name="field_amount_due">Importe a pagar</string>
+    <string name="field_due_date">Vencimiento</string>
+    <string name="action_save_amount">Guardar importe</string>
+    <string name="action_remove_amount">Quitar importe</string>
+    <string name="capture_title">Importes en esta página</string>
+    <string name="capture_body">Elegí el que corresponde a tu factura.</string>
+    <string name="capture_no_date">Sin vencimiento</string>
+    <string name="capture_none_title">No hay importes en esta página</string>
+    <string name="capture_none_body">Abrí la página que muestra tu factura y probá de nuevo, o escribí el importe vos.</string>
+    <string name="action_use_amount">Guardar como importe a pagar</string>
+    <string name="delete_title">¿Borrar %1$s?</string>
+    <string name="delete_body">También se borran sus pagos e importes. No se puede deshacer.</string>
+    <string name="action_delete">Borrar</string>
+    <string name="action_cancel">Cancelar</string>
+
+    <!-- the bell -->
+    <string name="upcoming_title">Lo que viene</string>
+    <string name="upcoming_body">Recordatorios y vencimientos de los próximos 45 días.</string>
+    <string name="upcoming_empty">No hay nada programado. Conectá un servicio para recibir recordatorios mensuales.</string>
+    <string name="kind_reminder">Recordatorio</string>
+    <string name="kind_due">Vencimiento</string>
+
+    <!-- one bill -->
+    <string name="menu_edit">Editar</string>
+    <string name="menu_delete">Borrar</string>
+    <string name="amount_to_pay">Importe a pagar</string>
+    <string name="paid_label">Pagado este mes</string>
+    <string name="no_amount_yet">Sin importe todavía</string>
+    <string name="usual_amount_value">Suele ser alrededor de %1$s</string>
+    <string name="due_on">Vence el %1$s</string>
+    <string name="was_due_on">Venció el %1$s</string>
+    <string name="next_reminder_on">Próximo recordatorio: %1$s</string>
+    <string name="pending_line">Es momento de consultar el importe de este mes.</string>
+    <string name="done_line">Todas las cuotas están pagadas.</string>
+    <string name="cuota_progress">Sigue la cuota %1$d de %2$d</string>
+    <string name="action_check_site">Consultar importe en su sitio</string>
+    <string name="action_open_mp">Abrir Mercado Pago</string>
+    <string name="reminders_label">Recordatorio mensual</string>
+    <string name="reminder_line">El día %1$d de cada mes</string>
+    <string name="reminder_short">recordatorio el día %1$d</string>
+    <string name="section_payments">Pagos</string>
+    <string name="no_payments">Todavía no registraste pagos.</string>
+    <string name="paid_on">Pagado el %1$s</string>
+    <string name="cuota_short">cuota %1$d/%2$d</string>
+    <string name="cuota_short_one">cuota %1$d</string>
+
+    <!-- tabs -->
+    <string name="bills_empty">Todavía no hay servicios. Conectá uno para empezar.</string>
+    <string name="stats_empty">Registrá un pago para ver tus números acá.</string>
+    <string name="stats_paid_month">Pagado en %1$s</string>
+    <string name="stats_average">Promedio mensual: %1$s</string>
+    <string name="stats_last_months">Últimos 6 meses</string>
+    <string name="stats_by_category">Este mes por categoría</string>
+    <string name="history_empty">Los pagos que registres aparecen acá.</string>
+
+    <!-- the company's site inside the app -->
+    <string name="browser_find">Buscar importe</string>
+    <string name="browser_paste">Pegar número</string>
+    <string name="browser_hint">Cuando tu factura esté en pantalla, tocá Buscar importe. La app no guarda lo que escribís en este sitio.</string>
+    <string name="browser_tap_field">Tocá primero el casillero en la página y después Pegar número. También quedó copiado.</string>
+    <string name="browser_open_external">Abrir en el navegador</string>
+
+    <!-- settings -->
+    <string name="settings_title">Ajustes</string>
+    <string name="field_your_name">Tu nombre</string>
+    <string name="name_hint">Solo se usa para el saludo.</string>
+    <string name="settings_country">País</string>
+    <string name="country_hint">Define qué empresas se ofrecen y la moneda de los servicios nuevos.</string>
+    <string name="settings_language">Idioma de la app</string>
+    <string name="settings_reminders">Recordatorios</string>
+    <string name="settings_reminder_time">Hora del día</string>
+    <string name="reminder_time_hint">Android puede entregarlo unos minutos más tarde.</string>
+    <string name="settings_notifications">Notificaciones</string>
+    <string name="notif_on">Permitidas</string>
+    <string name="notif_off">Bloqueadas. Tocá para permitirlas.</string>
+    <string name="action_test_notification">Enviar un recordatorio de prueba</string>
+    <string name="settings_backup">Tus datos</string>
+    <string name="settings_privacy">Tus servicios se guardan solo en este teléfono, sin ninguna cuenta. Con un archivo de copia podés pasarlos a otro teléfono.</string>
+    <string name="action_export">Guardar un archivo de copia</string>
+    <string name="action_import">Restaurar desde un archivo de copia</string>
+    <string name="backup_saved">Copia guardada</string>
+    <string name="backup_failed">No se pudo guardar la copia</string>
+    <string name="backup_restored">Copia restaurada</string>
+    <string name="backup_bad">Ese archivo no es una copia de Billio</string>
+
+    <!-- notifications -->
+    <string name="channel_name">Recordatorios de facturas</string>
+    <string name="notif_monthly">Es momento de pagar %1$s</string>
+    <string name="notif_due_tomorrow">%1$s vence mañana</string>
+    <string name="notif_due_today">%1$s vence hoy</string>
+    <string name="notif_overdue">%1$s está vencida</string>
+    <string name="notif_amount">A pagar: %1$s</string>
+    <string name="notif_no_amount">Consultá el importe de este mes y registrá el pago.</string>
+    <string name="notif_test_title">Los recordatorios funcionan</string>
+    <string name="notif_test_text">Así se ve un recordatorio de factura.</string>
+</resources>
